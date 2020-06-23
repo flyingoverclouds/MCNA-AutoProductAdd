@@ -21,7 +21,9 @@ namespace AutoAddProducts
         {
             log.LogInformation($"Product details message : {productDetailsMsg}");
 
-            // TODO : get the json content from the message and insert/update the document in cosmos
+            // TOTO  : call Translation cognitive service
+
+            // TODO : get the json content from the message and insert/update the document in CosmosDB
 
             // TODO : extract product ID & name to generate a confirmation message, or update metadata on blob, or ....
             addproductConfirmationMsg = "ADDED : " + productDetailsMsg;

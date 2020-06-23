@@ -75,7 +75,7 @@ namespace AutoAddProducts
             log.LogInformation($"     |- Adult score : {imgAn.Adult.AdultScore}");
             log.LogInformation($"-- Gore content : {imgAn.Adult.IsGoryContent}");
             log.LogInformation($"     |- Gore score : {imgAn.Adult.GoreScore}");
-            log.LogInformation($"-- Racist content : {imgAn.Adult.IsRacyContent}");
+            log.LogInformation($"-- Nude content : {imgAn.Adult.IsRacyContent}");
             log.LogInformation($"     |- Gore score : {imgAn.Adult.RacyScore}");
         }
 
